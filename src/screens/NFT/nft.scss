@@ -1,0 +1,83 @@
+.nft {
+  overflow: hidden;
+  padding: 1px 0 0 0;
+  height: 1080px;
+
+  &__container {
+    padding: 1px;
+    margin: 0 auto;
+    max-width: 1640px;
+  }
+
+  &__title {
+    margin-top: 212px;
+    font-size: 128px;
+    text-align: center;
+  }
+  &__images {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1134px;
+    height: 890px;
+    display: flex;
+    justify-content: center;
+
+    &-man {
+      position: relative;
+      z-index: 5;
+      max-height: 100%;
+    }
+
+    &-icon1 {
+      animation-name: moveIcon;
+      animation-duration: 1500ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 25%;
+      width: 220px;
+      height: 220px;
+    }
+
+    &-icon2 {
+      animation-name: moveIcon;
+      animation-duration: 1650ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 6;
+      position: absolute;
+      top: 220px;
+      left: 0;
+      width: 220px;
+      height: 220px;
+    }
+
+    &-icon3 {
+      animation-name: moveIcon;
+      animation-duration: 1800ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      z-index: 7;
+      position: absolute;
+      top: 400px;
+      left: 60%;
+      width: 220px;
+      height: 220px;
+    }
+
+    &-icon4 {
+      animation-name: moveIcon;
+      animation-duration: 1950ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      position: absolute;
+      top: 50px;
+      left: 80%;
+      width: 220px;
+      height: 220px;
+    }
+  }
+}

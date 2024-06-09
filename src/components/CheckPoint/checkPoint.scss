@@ -1,0 +1,45 @@
+.checkPoint {
+  position: relative;
+  display: flex;
+  transition: 100ms;
+  &__container {
+    z-index: 3;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #4e0007;
+    background: #ff8993;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+  &__text {
+    text-transform: uppercase;
+  }
+  .checkPoint__triangle {
+    z-index: 1;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
+
+  .checkPoint__circle {
+    z-index: 2;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    border: 3px solid #4e0007;
+    background: #ff8993;
+  }
+}

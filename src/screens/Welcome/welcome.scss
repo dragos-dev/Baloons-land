@@ -1,0 +1,201 @@
+.welcome {
+  padding: 1px 0 0 0;
+  height: 2000px;
+  .checkRoadmap {
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    z-index: 1000;
+  }
+  .checkNft {
+    position: absolute;
+    height: 30px;
+    top: 200px;
+    left: 400px;
+    .checkPoint__container {
+      width: 165px;
+      height: 45px;
+    }
+    .checkPoint__triangle {
+      top: 40px;
+      svg {
+        width: 25px;
+        height: 45px;
+      }
+    }
+    .checkPoint__circle {
+      width: 10px;
+      height: 10px;
+      top: 80px;
+    }
+  }
+
+  .checkAbout {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    .checkPoint__container {
+      width: 290px;
+      height: 85px;
+    }
+    .checkPoint__text {
+      font-size: 24px;
+    }
+    .checkPoint__triangle {
+      top: 80px;
+      svg {
+        width: 50px;
+        height: 80px;
+      }
+    }
+    .checkPoint__circle {
+      top: 160px;
+    }
+  }
+  .checkMinigames {
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    .checkPoint__container {
+      width: 145px;
+      height: 40px;
+    }
+    .checkPoint__text {
+      font-size: 12px;
+    }
+    .checkPoint__triangle {
+      top: 30px;
+      svg {
+        width: 24px;
+        height: 40px;
+      }
+    }
+    .checkPoint__circle {
+      width: 8px;
+      height: 8px;
+      top: 70px;
+    }
+  }
+
+  &__container {
+    margin: 0 auto;
+    max-width: 1640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 230px;
+    font-size: 96px;
+  }
+  &__map {
+    margin-top: 100px;
+    position: relative;
+    &-wrapper {
+      overflow: hidden;
+
+      rotate: 2deg;
+      width: 1230px;
+      height: 900px;
+      border: 36px solid rgba(255, 137, 147, 1);
+      border-radius: 70px;
+      width: 1228px;
+      height: 900px;
+      transition: transform 1s ease, height 1s ease, width 1s ease;
+      gap: 0px;
+    }
+    transform: rotate(2deg);
+    &-img {
+      transform: scale(1.05);
+      border-radius: 50px;
+      width: 100%;
+      height: 100%;
+      transition: transform 1s ease, height 1s ease, width 1s ease;
+    }
+    &-signs {
+      z-index: 10;
+      position: absolute;
+      transition: all 0.6s ease;
+      top: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &-sign1 {
+      width: 410px;
+      height: 85px;
+      background: rgba(255, 137, 147, 1);
+      border: 4px solid rgba(78, 0, 7, 1);
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      border-radius: 12px;
+      rotate: -4deg;
+    }
+    &-sign2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 400px;
+      height: 85px;
+      font-size: 24px;
+      text-transform: uppercase;
+      background-color: rgba(78, 0, 7, 1);
+      border: 4px solid rgba(255, 137, 147, 1);
+      border-radius: 12px;
+      color: rgba(255, 137, 147, 1);
+      rotate: 2deg;
+      margin-top: -25px;
+      margin-left: 225px;
+    }
+  }
+
+  .div {
+  }
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* { scroll-behavior: smooth !important;}
+
+@media screen and (max-width: 768px) {
+  .checkRoadmap, .checkNft, .checkAbout, .checkMinigames {
+    display: none;
+  }
+
+  .checkSocial {
+    position: absolute;
+    z-index: 10000;
+    width: 155px;
+    top: 30%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkLink__container {
+    background: #FF8993;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+    padding: 15px 0px;
+    border-radius: 12px;
+    border: 3px solid #4E0007
+  }
+
+  .checkLink {
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+}

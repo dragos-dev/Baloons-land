@@ -1,0 +1,859 @@
+@media (max-width: 1700px) {
+  .navigation {
+    width: 900px;
+    height: 70px;
+    &__container {
+      width: 845px;
+    }
+    &__logo {
+      &-img {
+        width: 180px;
+        height: 40px;
+      }
+    }
+    &__buttons {
+      gap: 15px;
+    }
+    &__contacts {
+    }
+  }
+  .welcome {
+    &__title {
+      font-size: 96px;
+    }
+    &__map {
+      &-wrapper {
+        border: 12px solid rgba(255, 137, 147, 1);
+        border-radius: 24px;
+        width: 700px;
+        height: 500px;
+      }
+      &-img {
+        border-radius: 0px;
+        object-fit: cover;
+        width: 700px;
+        height: 500px;
+      }
+      &-signs {
+        top: -40px;
+      }
+      &-sign1 {
+        border: 2px solid rgba(78, 0, 7, 1);
+
+        border-radius: 6px;
+        width: 205px;
+        height: 45px;
+        font-size: 12px;
+      }
+      &-sign2 {
+        border: 2px solid rgba(255, 137, 147, 1);
+        border-radius: 6px;
+        width: 200px;
+        height: 45px;
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 110px;
+      }
+    }
+  }
+  .about {
+    overflow: hidden;
+    &__container {
+      max-width: 845px;
+    }
+    &__title {
+      font-size: 80px;
+    }
+    &__description {
+      font-size: 18px;
+    }
+    &__facts {
+      margin-top: 40px;
+      position: relative;
+      &-img {
+        width: 295px;
+        height: 600px;
+        margin-top: -150px;
+        margin-left: 570px;
+        z-index: 10;
+        position: absolute;
+      }
+    }
+    &__fact1 {
+      width: 700px;
+      padding: 27px;
+      &-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact2 {
+      width: 700px;
+      padding: 27px;
+
+      &-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact3 {
+      width: 700px;
+      padding: 27px;
+
+      &-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact4 {
+      width: 700px;
+      padding: 27px;
+
+      &-text {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+
+    &__banner {
+      &-text {
+        width: 300px;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+  .roadmap {
+    &__title {
+      font-size: 80px;
+    }
+    &__point1 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point2 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 185px;
+        height: 175px;
+      }
+      &-img {
+        left: 0;
+        top: -30px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point3 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 215px;
+        height: 170px;
+      }
+      &-img {
+        left: 30px;
+        top: 0px;
+        width: 160px;
+        height: 160px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point4 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 235px;
+        height: 145px;
+      }
+      &-img {
+        left: 30px;
+        top: 10px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point5 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 175px;
+        height: 155px;
+      }
+      &-img {
+        left: 30px;
+        top: 0px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point6 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        left: -60px;
+        top: 0px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point7 {
+      height: 400px;
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        gap: 30px;
+        width: 800px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        left: 30px;
+        top: 60px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+  }
+  .minigames-wrapper {
+    height: 400vh;
+  }
+  .minigames {
+    width: 100%;
+    &__background {
+      width: 300vw;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__title {
+      font-size: 100px;
+    }
+  }
+
+  .nft {
+    height: 100vh;
+
+    &__container {
+      position: relative;
+      height: 100%;
+    }
+    &__title {
+      position: absolute;
+
+      top: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 0;
+      font-size: 64px;
+    }
+    &__images {
+      position: absolute;
+
+      left: 50%;
+      transform: translateX(-50%);
+
+      bottom: 0;
+      width: 850px;
+      height: 650px;
+      &-man {
+        width: 850px;
+        height: 650px;
+      }
+
+      &-icon1 {
+        top: -40px;
+        left: 22%;
+        width: 170px;
+        height: 170px;
+      }
+
+      &-icon2 {
+        top: 170px;
+        left: 80px;
+        width: 170px;
+        height: 170px;
+      }
+
+      &-icon3 {
+        top: 300px;
+        left: 60%;
+        width: 170px;
+        height: 170px;
+      }
+
+      &-icon4 {
+        top: 0px;
+        left: 65%;
+        width: 170px;
+        height: 170px;
+      }
+    }
+  }
+
+  .community {
+    height: 100vh;
+
+    &__container {
+      max-width: 800px;
+    }
+    &__blocks {
+      margin-top: 100px;
+    }
+    &__block1 {
+      border: 4px solid rgba(78, 0, 7, 1);
+      width: 310px;
+      height: 65px;
+      border-radius: 9px;
+      &-text {
+        font-size: 24px;
+      }
+    }
+
+    &__block2 {
+      border: 4px solid rgba(255, 137, 147, 1);
+      width: 300px;
+      height: 65px;
+      border-radius: 9px;
+      margin-top: -14px;
+      margin-left: 60px;
+      &-text {
+        font-size: 24px;
+      }
+    }
+
+    &__buttons {
+      width: 600px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .navigation {
+    width: 345px;
+    height: 70px;
+    &__container {
+      width: 295px;
+      flex-direction: row-reverse;
+    }
+    &__logo {
+      &-img {
+        width: 180px;
+        height: 40px;
+      }
+    }
+    &__buttons {
+      gap: 15px;
+    }
+    &__contacts {
+      display: none;
+    }
+  }
+  .welcome {
+    &__title {
+      font-size: 40px;
+    }
+    &__map {
+      &-wrapper {
+        border: 12px solid rgba(255, 137, 147, 1);
+        border-radius: 24px;
+        width: 290px;
+        height: 350px;
+      }
+      &-img {
+        border-radius: 0px;
+        object-fit: cover;
+        width: 290px;
+        height: 350px;
+      }
+      &-signs {
+      }
+      &-sign1 {
+        border: 2px solid rgba(78, 0, 7, 1);
+
+        border-radius: 6px;
+        width: 205px;
+        height: 45px;
+        font-size: 12px;
+      }
+      &-sign2 {
+        border: 2px solid rgba(255, 137, 147, 1);
+        border-radius: 6px;
+        width: 200px;
+        height: 45px;
+        font-size: 12px;
+        margin-top: -10px;
+        margin-left: 110px;
+      }
+    }
+  }
+  .about {
+    overflow: hidden;
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__title {
+      width: 300px;
+      font-size: 32px;
+    }
+    &__description {
+      font-size: 18px;
+    }
+    &__facts {
+      margin-top: 40px;
+      position: relative;
+      &-img {
+        width: 295px;
+        height: 600px;
+        margin-top: -150px;
+        margin-left: 170px;
+        z-index: 10;
+        position: absolute;
+      }
+    }
+    &__fact1 {
+      width: 310px;
+      padding: 27px;
+      &-text {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact2 {
+      width: 310px;
+      padding: 27px;
+
+      &-text {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact3 {
+      width: 310px;
+      padding: 27px;
+
+      &-text {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+    &__fact4 {
+      width: 310px;
+      padding: 27px;
+
+      &-text {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.16px;
+      }
+    }
+
+    &__banner {
+      &-text {
+        width: 300px;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+  .roadmap {
+    &__title {
+      font-size: 32px;
+    }
+    &__point1 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column;
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point2 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column-reverse;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 185px;
+        height: 175px;
+      }
+      &-img {
+        left: 0;
+        top: -30px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point3 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 215px;
+        height: 170px;
+      }
+      &-img {
+        left: 30px;
+        top: 0px;
+        width: 160px;
+        height: 160px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point4 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column-reverse;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 235px;
+        height: 145px;
+      }
+      &-img {
+        left: 30px;
+        top: 10px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point5 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 175px;
+        height: 155px;
+      }
+      &-img {
+        left: 30px;
+        top: 0px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point6 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column-reverse;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        left: -60px;
+        top: 0px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+    &__point7 {
+      &-number {
+        left: 70%;
+        rotate: 2deg;
+      }
+      &-container {
+        flex-direction: column;
+
+        gap: 30px;
+        width: 300px;
+      }
+      &-bg {
+        width: 185px;
+        height: 210px;
+      }
+      &-img {
+        left: 30px;
+        top: 60px;
+        width: 175px;
+        height: 175px;
+      }
+      &-text {
+        font-size: 32px;
+        rotate: 1.95deg;
+      }
+    }
+  }
+  .minigames-wrapper {
+  }
+  .minigames {
+    width: 100%;
+    &__container {
+      width: 100%;
+      margin: 0 auto;
+      margin-left: -190px;
+    }
+    &__background {
+      width: 400vw;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &__title {
+      font-size: 100px;
+    }
+  }
+
+  .nft {
+    height: 100vh;
+
+    &__container {
+      position: relative;
+      height: 100%;
+    }
+    &__title {
+      position: absolute;
+
+      top: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 0;
+      font-size: 64px;
+    }
+    &__images {
+      position: absolute;
+
+      left: 50%;
+      transform: translateX(-50%);
+      width: 375px;
+      bottom: 0;
+      height: 345px;
+      &-man {
+        width: 440px;
+        height: 345px;
+      }
+
+      &-icon1 {
+        top: -60px;
+        left: 15%;
+        width: 110px;
+        height: 110px;
+      }
+
+      &-icon2 {
+        top: 90px;
+        left: 20px;
+        width: 110px;
+        height: 110px;
+      }
+
+      &-icon3 {
+        top: 150px;
+        left: 55%;
+        width: 110px;
+        height: 110px;
+      }
+
+      &-icon4 {
+        top: 0px;
+        left: 67%;
+        width: 110px;
+        height: 110px;
+      }
+    }
+  }
+
+  .community {
+    height: 100vh;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__blocks {
+      margin-left: 0px;
+      margin-top: 100px;
+    }
+    &__block1 {
+      border: 4px solid rgba(78, 0, 7, 1);
+      width: 310px;
+      height: 65px;
+      border-radius: 9px;
+      &-text {
+        font-size: 24px;
+      }
+    }
+
+    &__block2 {
+      border: 4px solid rgba(255, 137, 147, 1);
+      width: 300px;
+      height: 65px;
+      border-radius: 9px;
+      margin-top: -14px;
+      margin-left: 60px;
+      &-text {
+        font-size: 24px;
+      }
+    }
+
+    &__buttons {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

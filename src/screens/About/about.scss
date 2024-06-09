@@ -1,0 +1,127 @@
+.about {
+  padding: 1px 0 100px 0;
+  overflow: hidden;
+  height: 4300px;
+  &__container {
+    margin: 0 auto;
+    max-width: 1640px;
+  }
+  &__title {
+    margin-top: 340px;
+    font-size: 96px;
+    text-transform: uppercase;
+  }
+  &__description {
+    margin-top: 25px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Onest", sans-serif;
+  }
+  &__facts {
+    margin-top: 35px;
+    position: relative;
+    &-img {
+      margin-top: -500px;
+      margin-left: 800px;
+      z-index: 10;
+      position: absolute;
+    }
+  }
+  &__fact1 {
+    position: relative;
+
+    background: rgba(78, 0, 7, 1);
+    max-width: 1110px;
+    padding: 36px;
+    border: 4px solid rgba(255, 137, 147, 1);
+    border-radius: 15px;
+    &-text {
+      font-family: Onest;
+      line-height: 56px;
+      letter-spacing: 0.01em;
+      font-size: 32px;
+      color: rgba(255, 137, 147, 1);
+      font-family: "Onest", sans-serif;
+    }
+  }
+  &__fact2 {
+    z-index: 1;
+    position: relative;
+    max-width: 1110px;
+    background: rgba(255, 137, 147, 1);
+    margin-top: -30px;
+    padding: 36px;
+    border: 4px solid rgba(78, 0, 7, 1);
+    border-radius: 15px;
+    margin-left: 30px;
+    rotate: -1.3deg;
+    &-text {
+      font-family: Onest;
+      line-height: 56px;
+      letter-spacing: 0.01em;
+      font-size: 32px;
+      font-family: "Onest", sans-serif;
+    }
+  }
+  &__fact3 {
+    position: relative;
+    background: rgba(78, 0, 7, 1);
+    max-width: 1110px;
+    margin-top: 100px;
+    padding: 36px;
+    border: 4px solid rgba(255, 137, 147, 1);
+    border-radius: 15px;
+
+    rotate: 1.6deg;
+    &-text {
+      font-family: Onest;
+      line-height: 56px;
+      letter-spacing: 0.01em;
+      color: rgba(255, 137, 147, 1);
+      font-size: 32px;
+      font-family: "Onest", sans-serif;
+    }
+  }
+  &__fact4 {
+    position: relative;
+    max-width: 1110px;
+    background: rgba(255, 137, 147, 1);
+    margin-top: -30px;
+    padding: 36px;
+    border: 4px solid rgba(78, 0, 7, 1);
+    border-radius: 15px;
+    margin-left: 30px;
+    z-index: 1;
+    &-text {
+      font-family: Onest;
+
+      line-height: 56px;
+      letter-spacing: 0.01em;
+
+      font-size: 32px;
+
+      font-family: "Onest", sans-serif;
+    }
+  }
+
+  &__banner {
+    border: 4px solid rgba(78, 0, 7, 1);
+    margin-top: 140px;
+    width: 100%;
+    padding: 36px;
+    background: rgba(255, 137, 147, 1);
+    border-style: solid none solid none;
+    &-container {
+      max-width: 1640px;
+      margin: 0 auto;
+    }
+    &-text {
+      width: 1040px;
+      font-family: "Onest";
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 72px;
+      text-align: left;
+    }
+  }
+}

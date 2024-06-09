@@ -1,0 +1,37 @@
+.navigation {
+  z-index: 1000;
+  position: fixed;
+  width: 1640px;
+  height: 105px;
+  top: 32px;
+  left: 50vw;
+  transform: translatex(-50%);
+  border-radius: 100px;
+  background: rgba(255, 137, 147, 1);
+  border: 5px solid rgba(78, 0, 7, 1);
+  display: flex;
+  align-items: center;
+  &__container {
+    margin: 0 auto;
+    width: 1510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    &-img {
+      
+    }
+  }
+  &__buttons {
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+  }
+  &__contacts {
+    color: rgba(78, 0, 7, 1);
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

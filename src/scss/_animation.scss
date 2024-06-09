@@ -1,0 +1,40 @@
+@keyframes moveIcon {
+  from {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes moveup {
+  from {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
+@keyframes moveup1 {
+  from {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  to {
+    transform: rotate(0deg) translateY(0px);
+  }
+}
